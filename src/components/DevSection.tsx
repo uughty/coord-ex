@@ -115,7 +115,7 @@ export default function DevSection() {
 
 
   // ⚡️ REPLACE THIS WITH YOUR OWN PHOTO PATH
-  const profileImage = "/assets/images/prof.jpeg";
+  const profileImage = "/assets/images/prof2.jpeg";
 
 
   return (
@@ -239,7 +239,7 @@ export default function DevSection() {
               <div className="flex justify-center md:justify-start">
                 <a 
                   href="/resume.pdf" 
-                  download="My_Resume.pdf"
+                  download="public\Sandra_Malilo_Resume software eng.docx"
                   className="group relative inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 border border-zinc-700 hover:border-violet-500 rounded-full text-zinc-100 text-sm font-medium transition-all overflow-hidden shadow-[0_0_20px_rgba(139,92,246,0.1)]"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-violet-600/20 to-cyan-600/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
