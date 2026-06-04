@@ -61,7 +61,7 @@ export default function App() {
     title: "Maternal Hub", 
     category: "HealthTech", 
     description: "A comprehensive digital health solution empowering expecting mothers with real-time tracking and expert access.", 
-    tags: ["React", "Tailwind", "Node.js"], 
+    tags: ["React", "TailwindCss", "JavaScript"], 
     icon: <Smartphone className="w-8 h-8 text-cyan-400" />,
     image: "/assets/images/mart.jpg", // Replace with your actual filename
     link: "https://magnificent-peony-f9d546.netlify.app/" 
@@ -70,7 +70,7 @@ export default function App() {
     title: "AfriArts Kenya", 
     category: "E-commerce", 
     description: "A borderless marketplace connecting traditional African artists directly with global art collectors.", 
-    tags: ["Next.js", "Stripe", "Sanity"], 
+    tags: ["HTML", "Css", "JavaScript"], 
     icon: <Globe className="w-8 h-8 text-fuchsia-400" />,
     image: "/assets/images/arts.jpg", // Replace with your actual filename
     link: "https://tubular-phoenix-e6d5e4.netlify.app/" 
@@ -79,7 +79,7 @@ export default function App() {
     title: "CyberTrove Africa", 
     category: "Cybersecurity", 
     description: "High-performance tech agency portfolio with fluid UX, complex WebGL animations, and CMS integration.", 
-    tags: ["React", "Framer Motion", "Three.js"], 
+    tags: ["React", "Framer Motion", "TailwindCss"], 
     icon: <Terminal className="w-8 h-8 text-emerald-400" />,
     image: "/assets/images/cyber.PNG", // Replace with your actual filename
     link: "https://cybertroveafrica.com/" 
@@ -172,7 +172,7 @@ const upcomingProjects: Project[] = [
             </motion.p>
           </div>
           <motion.a 
-            href="https://github.com"
+            
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
